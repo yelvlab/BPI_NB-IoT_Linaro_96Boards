@@ -20,4 +20,4 @@
 ![](./doc/pic/Debugger_Interface.PNG)
 ![](./doc/pic/SWD_Interface.PNG)
 
-[使用Open Debugger烧录BPI-NB_IoT开发板](./doc/doc\BPi-BC95-Linaro使用BPI_OpenDebugger烧录.md)
+[使用Open Debugger烧录BPI-NB_IoT开发板](./doc/BPi-BC95-Linaro使用BPI_OpenDebugger烧录.md)
