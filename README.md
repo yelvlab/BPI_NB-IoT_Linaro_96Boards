@@ -18,10 +18,10 @@
 
 - BPI NB-IoT Linaro 96Boars developent board 40PIN GPIO (CON1) define:
 
-![](./doc/pic/40PIN_GPIO.PNG)
+![](./doc/pic/40PIN_GPIO.png)
 
 - Programming & Debugger Interface
 
-![](./doc/pic/Debugger_Interface.PNG)
+![](./doc/pic/Debugger_Interface.png)
 
 ![](./doc/pic/SWD_Interface.png)
