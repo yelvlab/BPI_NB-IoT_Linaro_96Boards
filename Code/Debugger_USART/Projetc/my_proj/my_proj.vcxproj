@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{128991B1-0CF0-44D5-AD07-9EA334C16B76}</ProjectGuid>
+    <ProjectName>BPI-STM32-BC95</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakeIncludeSearchPath>../../Lib/inc;../../Lib/cmsis;../../USER;../../USER/APP/inc;.;c:\sysgcc\arm-eabi\arm-eabi\include\c++\6.2.0;c:\sysgcc\arm-eabi\arm-eabi\include\c++\6.2.0\arm-eabi\thumb\cortex_m3;c:\sysgcc\arm-eabi\arm-eabi\include\c++\6.2.0\backward;c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\6.2.0\include;c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\6.2.0\include-fixed;c:\sysgcc\arm-eabi\arm-eabi\sys-include;c:\sysgcc\arm-eabi\arm-eabi\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(ProjectDir)\gcc_Debug.h;$(VISUALGDB_DIR)\gcc_compat.h;$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\stm32_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakeOutput>$(ProjectDir)my_proj-Debug.vgdbsettings</NMakeOutput>
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <NMakePreprocessorDefinitions>__VisualGDB_CFG_Debug;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakeIncludeSearchPath>.;c:\sysgcc\arm-eabi\arm-eabi\include\c++\6.2.0;c:\sysgcc\arm-eabi\arm-eabi\include\c++\6.2.0\arm-eabi\thumb\cortex_m3;c:\sysgcc\arm-eabi\arm-eabi\include\c++\6.2.0\backward;c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\6.2.0\include;c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\6.2.0\include-fixed;c:\sysgcc\arm-eabi\arm-eabi\sys-include;c:\sysgcc\arm-eabi\arm-eabi\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(ProjectDir)\gcc_Release.h;$(VISUALGDB_DIR)\gcc_compat.h;$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\stm32_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakePreprocessorDefinitions>__VisualGDB_CFG_Release;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakeOutput>$(ProjectDir)my_proj-Release.vgdbsettings</NMakeOutput>
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Lib\cmsis\core_cm3.c" />
+    <ClCompile Include="..\..\Lib\cmsis\system_stm32f10x.c" />
+    <ClCompile Include="..\..\Lib\src\misc.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_adc.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_bkp.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_can.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_cec.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_crc.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_dac.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_dbgmcu.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_dma.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_exti.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_flash.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_fsmc.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_gpio.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_i2c.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_iwdg.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_pwr.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_rcc.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_rtc.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_sdio.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_spi.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_tim.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_usart.c" />
+    <ClCompile Include="..\..\Lib\src\stm32f10x_wwdg.c" />
+    <ClCompile Include="..\..\USER\APP\src\bc95_power.c" />
+    <ClCompile Include="..\..\USER\APP\src\bc95_user.c" />
+    <ClCompile Include="..\..\USER\APP\src\stm32f1x_nvic_user.c" />
+    <ClCompile Include="..\..\USER\APP\src\usart.c" />
+    <ClCompile Include="..\..\USER\delay.c" />
+    <ClCompile Include="..\..\USER\main.c" />
+    <ClCompile Include="..\..\USER\stm32f10x_it.c" />
+    <ClCompile Include="C:\Users\Dell\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F1xxxx\StartupFiles\startup_stm32f103xe.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Lib\cmsis\core_cm3.h" />
+    <ClInclude Include="..\..\Lib\cmsis\stm32f10x.h" />
+    <ClInclude Include="..\..\Lib\cmsis\system_stm32f10x.h" />
+    <ClInclude Include="..\..\Lib\inc\misc.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_adc.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_bkp.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_can.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_cec.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_crc.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_dac.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_dbgmcu.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_dma.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_exti.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_flash.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_fsmc.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_gpio.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_i2c.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_iwdg.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_pwr.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_rcc.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_rtc.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_sdio.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_spi.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_tim.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_usart.h" />
+    <ClInclude Include="..\..\Lib\inc\stm32f10x_wwdg.h" />
+    <ClInclude Include="..\..\USER\APP\inc\bc95_power.h" />
+    <ClInclude Include="..\..\USER\APP\inc\bc95_user.h" />
+    <ClInclude Include="..\..\USER\APP\inc\stm32f10x_nvic_user.h" />
+    <ClInclude Include="..\..\USER\APP\inc\usart.h" />
+    <ClInclude Include="..\..\USER\delay.h" />
+    <ClInclude Include="..\..\USER\main.h" />
+    <ClInclude Include="..\..\USER\stm32f10x_conf.h" />
+    <ClInclude Include="..\..\USER\stm32f10x_it.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="debug.mak" />
+    <None Include="Makefile" />
+    <None Include="my_proj-Debug.vgdbsettings">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="my_proj-Release.vgdbsettings" />
+    <None Include="release.mak" />
+    <None Include="stm32.mak" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="stm32.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
