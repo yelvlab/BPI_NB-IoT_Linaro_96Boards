@@ -2,9 +2,9 @@
 
 **Recommend Integrated Development Environment:MDK5**
 
-- #####MicroUSB Data Line
-- #####J-Link Debugger or BPI OPEN-DEBUGGER
-- #####BPI_NB-IoT_Linaro_96Boards
+- ##### MicroUSB Data Line
+- ##### J-Link Debugger or BPI OPEN-DEBUGGER
+- ##### BPI_NB-IoT_Linaro_96Boards
 
 **Debugger:**
 ![](./pic/Debugger.jpg)
@@ -15,6 +15,7 @@
 **Link debugger and development board:**
 
 According to the pin map link debugger and development board
+
 ![](./pic/connect2.jpg)![](./pic/connect1.png)
 
 **Physical connection diagram:**
