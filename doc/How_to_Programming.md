@@ -23,6 +23,7 @@ According to the pin map link debugger and development board
 ![](./pic/connect.jpg)
 
 Options of Target Setting:
+
 ![](./pic/debug_setting_1.png)
 ![](./pic/debug_setting_2.png)
 
