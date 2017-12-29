@@ -1,6 +1,6 @@
-##[BPI_NB-IoT_Linaro_96Boards](http://www.banana-pi.com/eacp_view.asp?id=108)
+## [BPI_NB-IoT_Linaro_96Boards](http://www.banana-pi.com/eacp_view.asp?id=108)
 
-#Introduction:
+# Introduction:
 - BPI NB-IoT Linaro 96Boards with BC95 module developent board ，this is banana pi team first board for Linaro 96Board standard development board.
 
 **MCU**: STM32F103(LD)
