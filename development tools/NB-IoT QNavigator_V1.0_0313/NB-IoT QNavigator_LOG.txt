@@ -1,0 +1,14 @@
+[2017/03/13 16:24:18.901] Init
+[2017/03/13 16:24:19.723] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/03/13 16:24:26.927] Init
+[2017/03/13 16:24:27.746] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/03/13 16:37:21.004] Init
+[2017/03/13 16:37:21.726] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/03/13 16:47:04.642] Init
+[2017/03/13 16:47:05.386] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/03/13 16:48:02.537] Init
+[2017/03/13 16:48:03.236] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/03/13 17:17:26.407] Init
+[2017/03/13 17:17:27.092] DialogCallEC20_Inner ThreadConnectModelInit
+[2018/01/09 14:25:16.864] Init
+[2018/01/09 14:25:17.226] DialogCallEC20_Inner ThreadConnectModelInit

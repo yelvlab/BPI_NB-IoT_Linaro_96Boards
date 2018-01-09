@@ -1,0 +1,113 @@
+[2017/01/16 09:52:20.298] Init
+[2017/01/16 09:52:20.881] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/01/16 09:53:15.051] Init
+[2017/01/16 09:53:15.542] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/01/16 09:53:24.841] Init
+[2017/01/16 09:53:25.284] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/01/16 09:53:49.250] Init
+[2017/01/16 09:53:49.707] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/01/16 09:54:34.120] Init
+[2017/01/16 09:54:34.607] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/01/16 09:59:49.954] Init
+[2017/01/16 09:59:50.386] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/01/16 10:00:36.437] Init
+[2017/01/16 10:00:36.845] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/01/16 10:02:03.553] Init
+[2017/01/16 10:02:03.992] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/01/16 11:25:45.351] Init
+[2017/01/16 11:25:46.080] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/01/16 15:10:02.243] Init
+[2017/01/16 15:10:02.833] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/01/16 15:10:47.487] Init
+[2017/01/16 15:10:47.971] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/01/16 15:11:11.119] Init
+[2017/01/16 15:11:11.564] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/01/16 15:13:41.962] 
+OK
+
++CGPADDR:1
+
+OK
+
+[2017/01/17 09:56:11.618] Init
+[2017/01/17 09:56:12.546] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/01/17 14:46:46.334] AT+NQMGR
+
+AT+NQMGS
+
+AT+NSOCR
+
+AT+NSOST
+
+AT+NSORF
+
+AT+NSOCL
+
+AT+CGDCONT
+
+AT+NLOGLEVEL
+
+AT+NCDP
+
+AT+CGMI
+
+AT+CGSN
+
+AT+NTSETID
+
+AT+CGMM
+
+AT+CGMR
+
+AT+CLAC
+
+OK
+
+OK
+
+ERROR
+
+ERROR
+
+OK
+
++NCONFIG:AUTOCONNECT,TRUE
+
+OK
+
+OK
+
+OK
+
+OK
+
+OK
+
+ERROR
+
+ERROR
+
+ERROR
+
+OK
+
+ERROR
+
+OK
+
+[2017/02/10 11:13:22.334] Init
+[2017/02/10 11:13:23.011] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/02/10 11:13:32.613] Init
+[2017/02/10 11:13:33.212] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/02/10 11:14:19.241] Init
+[2017/02/10 11:14:19.830] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/02/13 16:35:20.662] Init
+[2017/02/13 16:35:21.252] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/02/13 17:35:56.585] Init
+[2017/02/13 17:35:56.877] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/02/14 11:24:47.200] Init
+[2017/02/14 11:24:47.725] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/02/17 14:45:51.482] Init
+[2017/02/17 14:45:52.759] DialogCallEC20_Inner ThreadConnectModelInit
+[2017/02/27 21:45:50.976] Init
+[2017/02/27 21:45:55.432] DialogCallEC20_Inner ThreadConnectModelInit

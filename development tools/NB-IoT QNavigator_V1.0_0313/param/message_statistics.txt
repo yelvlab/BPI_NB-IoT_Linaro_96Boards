@@ -1,0 +1,10 @@
+[UDP]
+sent=5
+received=4
+[COAP]
+pending=
+sent=
+error=
+buffered=
+received=
+dropped=
