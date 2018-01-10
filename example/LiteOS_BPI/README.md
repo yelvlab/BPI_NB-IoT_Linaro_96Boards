@@ -1,6 +1,6 @@
 # BPI NB-IoT & Huawei LiteOS
 
-[项目github地址](https://github.com/LITEOS/LiteOS_Partner_Development_Kits)
+项目github仓库地址：[LiteOS_Partner_Development_Kits](https://github.com/LITEOS/LiteOS_Partner_Development_Kits)
 
 #### BPI NB-IoT 96Boards (Quecet BC95)
 - 带有BC95模块开发板的BPI NB-IoT Linaro 96Boards，这是Banaro 96Board标准开发板的香蕉派团队第一块板。
